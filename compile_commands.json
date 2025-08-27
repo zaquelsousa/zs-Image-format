@@ -1,0 +1,34 @@
+[
+  {
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-I",
+      "include",
+      "-c",
+      "-save-temps",
+      "-O3",
+      "-o",
+      "build/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/zakk/projects/zsImageFormat",
+    "file": "/home/zakk/projects/zsImageFormat/src/main.c",
+    "output": "/home/zakk/projects/zsImageFormat/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-I",
+      "include",
+      "-c",
+      "-save-temps",
+      "-O3",
+      "-o",
+      "build/encode.o",
+      "src/encode.c"
+    ],
+    "directory": "/home/zakk/projects/zsImageFormat",
+    "file": "/home/zakk/projects/zsImageFormat/src/encode.c",
+    "output": "/home/zakk/projects/zsImageFormat/build/encode.o"
+  }
+]
